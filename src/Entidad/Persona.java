@@ -1,16 +1,17 @@
-package MAO_01_Persona;
+package Entidad;
 
-public class Object_Persona {
+public class Persona {
+	
 	public String nombre;
 	public int edad;
 	public String sexo;
 
 	
-	public Object_Persona() {
+	public Persona() {
 	}
 
 
-	public Object_Persona(String nombre) {
+	public Persona(String nombre) {
 		this.nombre = nombre;
 	}
 
